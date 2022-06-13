@@ -9,8 +9,8 @@ export default function SkylineDropdown({ setSkyline }) {
       {/* note that the options will need value properties (1, 2, or 3) that correspond to the photo filenames in the public directory */}
       <select onChange={e => setSkyline(e.target.value)}>
         <option value='1'>Pink</option>
-        <option value='3'>Busy</option>
-        <option value='2'>Foggy</option>
+        <option value='2'>Busy</option>
+        <option value='3'>Foggy</option>
       </select>
     </div>
   );
